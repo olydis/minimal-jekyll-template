@@ -45,4 +45,17 @@ TODO
 
 ## Cloudflare
 
-TODO
+Deploying GitHub pages on Cloudflare is free even for private repositories and comes with [many perks](https://geekflare.com/cloudflare-advantages/). I find super fast load times around the globe and basic analytics (how many visitors and from where?) most valuable. 
+
+Similar to [GitHub Pages](https://pages.github.com/), [Cloudflare Pages](https://pages.cloudflare.com/) will automatically build on each push. However, it also shows live logs of each build, which is useful for debugging!
+
+### Setup
+- [Register/Log in](https://pages.cloudflare.com/)
+- `Create a project`
+- Connect with GitHub, select project, `Begin setup`
+- Under `Framework preset`, select `Jekyll`
+- `Save and Deploy`
+- Wait for first build to succeed
+- `Continue to project`
+- Done! This project here, for instance, is now published at https://minimal-jekyll-template.pages.dev/
+- Set up custom domain if desired, under tab `Custom Domains` (well explained step-by-step process)
