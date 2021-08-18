@@ -12,14 +12,14 @@ They get served precisely as you wrote them (modulo your hoster compressing, inj
 
 Think of Jekyll as a superset of this world: Files still get served as-is, except for the following.
 
-### Files not served
+### Files *not* served
 
 Anything that has a name starting with `_` won't get served.
 This applies to both files (like `_config.yml`) and folders.
 
 Files can also explicitly be ignored by listing them under field `exclude` in `_config.yml`.
 
-### Files being processed
+### Files getting *processed*
 
 Files starting with [YAML Front Matter](https://jekyllrb.com/docs/front-matter/) get processed.
 This front matter can be empty, like on top of this very file here:
@@ -28,7 +28,7 @@ This front matter can be empty, like on top of this very file here:
 ---
 ```
 
-"Being processed" most notably means that one can use the [Liquid](https://shopify.github.io/liquid/basics/introduction/) templating language. `index.html` demonstrates how to refer to variables defined in `_config.yml` as well as in the front matter.
+"Being processed" most notably means that one can use the [Liquid](https://shopify.github.io/liquid/basics/introduction/) templating language. `index.md` demonstrates how to refer to variables defined in `_config.yml` as well as in the front matter.
 
 On top of that, some convenience file formats get compiled into their native counterparts, most notably:
 - [`.md` files become equivalent `.html`](https://en.wikipedia.org/wiki/Markdown#Example)
@@ -45,7 +45,7 @@ TODO
 
 ## Cloudflare
 
-Deploying GitHub pages on Cloudflare is free even for private repositories and comes with [many perks](https://geekflare.com/cloudflare-advantages/). I find super fast load times around the globe and basic analytics (how many visitors and from where?) most valuable. 
+Deploying GitHub projects on Cloudflare is free even for private repositories and comes with [many perks](https://geekflare.com/cloudflare-advantages/). I find super fast load times around the globe and basic analytics (how many visitors and from where?) most valuable. 
 
 Similar to [GitHub Pages](https://pages.github.com/), [Cloudflare Pages](https://pages.cloudflare.com/) will automatically build on each push. However, it also shows live logs of each build, which is useful for debugging!
 
