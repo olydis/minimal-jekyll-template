@@ -1,6 +1,6 @@
 ---
 ---
-# Minimal Jekyll Template that can be built via Cloudflare Pages
+# Minimal Jekyll Template that can be built via [Cloudflare Pages](https://pages.cloudflare.com/)
 
 For developers out there who like to start from scratch rather than with a fully styled special-purpose template.
 May also be useful for learning Jekyll in a structured way, i.e. what's really Jekyll vs complicated configuration.
@@ -43,3 +43,6 @@ Setting certain variables in `_config.yml` or in front matter result in behavior
 
 TODO
 
+## Cloudflare
+
+TODO
